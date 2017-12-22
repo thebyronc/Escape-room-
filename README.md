@@ -11,7 +11,11 @@ _This webpage is meant to collaborate with classmates and create a webpage using
 ### Specs
 | Behavior | Input | Output |
 | :-------------     | :------------- | :------------- |
-| captures result when item is selected | "apple graphic" | "apple graphic"
+| a level can be activated | "start" | "level 1"|
+| level is interactive to trigger items | "item" | "book"
+| can collect items | "book, glasses" | "book, glasses"|
+| can activate a resource to move to the next level | "Level 3: next level" | "level 4"|
+| player can go back to previous levels | "selects: level 4" | "true" |
 
 
 ## Setup/Installation Requirements
@@ -34,11 +38,12 @@ if you run into any issues or have questions, ideas or concerns. Please enjoy an
 * _jQuery_
 * _Git_
 * _GitHub_
+* _Photoshop_
+* _Atom_
 
 ### License
 
 Copyright (c) 2017 ****_Julia Sheremet, Kate Trahan, Byron Chang, Jun Li_****
-https://juliajessica.github.io/beep-boop/
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

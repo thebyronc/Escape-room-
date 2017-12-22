@@ -1,0 +1,61 @@
+body {
+  background-color: #000000;
+  color: #fff;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.room6 {
+  margin: auto;
+  height: 800PX;
+  width: 1200px;
+  background-image: url('../room6/room6.png');
+}
+.dead {
+  margin: auto;
+  height: 800PX;
+  width: 1200px;
+  background-image: url('../room5/youdied.png');
+  display: none;
+}
+.win {
+  margin: auto;
+  height: 800PX;
+  width: 1200px;
+  background-image: url('../room5/youwin.png');
+}
+.intro {
+  margin: auto;
+  height: 800PX;
+  width: 1200px;
+  background-image: url('../room5/intro.png');
+  display: none;
+}
+.objects {
+  height: 0px;
+}
+.objects div {
+  display: block;
+  position: relative;
+  z-index: 1;
+  /* background-color: #ff0000; */
+  opacity: 0.4;
+}
+#fight {
+  width: 200px;
+  height: 25px;
+  background-color: #f2f2f2;
+  margin: auto;
+  text-align: center;
+  color: #000;
+
+}
+
+#msg {
+  margin: auto;
+  text-align: center;
+  margin-top: 500px;
+}

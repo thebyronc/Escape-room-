@@ -1,0 +1,18 @@
+#r4_circle {
+  width: 114px;
+  height: 116px;
+  position: relative;
+  z-index: 1;
+  top: -215px;
+  left: 435px;
+}
+#room4 {
+  width: 100%;
+}
+#r4_door {
+  width: 90px;
+  height: 350px;
+  position: relative;
+  top: -475px;
+  left: 80px;
+}
